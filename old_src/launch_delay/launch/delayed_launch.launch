@@ -1,0 +1,11 @@
+<!--This launch file calls a script that delays the launch
+of other launch files until the devices are finished initializing.
+This necessary for cold power-ons where the computer is ready
+before the devices, and the device drivers are intolerant of said condition.-->
+
+<launch>
+  <node pkg="launch_delay" type="launch_delay.sh"
+    args="15 delayed_package delayed_file.launch"
+    name="package_delay" output="screen">
+  </node>
+</launch>

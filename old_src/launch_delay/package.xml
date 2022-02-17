@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<package>
+	<name>launch_delay</name>
+	<version>0.0.0</version>
+	<description>A script that launches a launch file after a specified delay</description>
+	<maintainer email="code@clearpathrobotics.com">Clearpath Team</maintainer>
+	<license>BSD</license>
+	<buildtool_depend>catkin</buildtool_depend>
+</package>
