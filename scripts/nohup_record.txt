@@ -1,0 +1,21 @@
+[33m[ WARN] [1643809461.879400445]: Shutdown request received.[0m
+[33m[ WARN] [1643809461.879652415]: Reason given for shutdown: [user request][0m
+[0m[ INFO] [1643809093.564326591]: Subscribing to /classified_points[0m
+[0m[ INFO] [1643809093.575825374]: Subscribing to /clock[0m
+[0m[ INFO] [1643809093.583923223]: Subscribing to /collision_visu[0m
+[0m[ INFO] [1643809093.590420158]: Subscribing to /map[0m
+[0m[ INFO] [1643809093.597604813]: Subscribing to /move_base/TebLocalPlannerROS/global_plan[0m
+[0m[ INFO] [1643809093.604142517]: Subscribing to /move_base/TebLocalPlannerROS/local_plan[0m
+[0m[ INFO] [1643809093.610296344]: Subscribing to /move_base/TebLocalPlannerROS/obstacles[0m
+[0m[ INFO] [1643809093.620446152]: Subscribing to /move_base/TebLocalPlannerROS/teb_markers[0m
+[0m[ INFO] [1643809093.628789891]: Subscribing to /move_base/TebLocalPlannerROS/teb_poses[0m
+[0m[ INFO] [1643809093.636054067]: Subscribing to /move_base/current_goal[0m
+[0m[ INFO] [1643809093.642606715]: Subscribing to /move_base/global_costmap/costmap[0m
+[0m[ INFO] [1643809093.649171811]: Subscribing to /move_base/local_costmap/costmap[0m
+[0m[ INFO] [1643809093.655754123]: Subscribing to /move_base/result[0m
+[0m[ INFO] [1643809093.664707085]: Subscribing to /optimal_path[0m
+[0m[ INFO] [1643809093.673353644]: Subscribing to /plan_costmap_3D[0m
+[0m[ INFO] [1643809093.682541553]: Subscribing to /tf[0m
+[0m[ INFO] [1643809093.691257905]: Subscribing to /tf_static[0m
+[0m[ INFO] [1643809093.699667597]: Subscribing to /velodyne_points[0m
+[0m[ INFO] [1643809093.708969267]: Recording to '/home/administrator/1-Deep-Collider/results/rosbag_data/2022-02-02_08-38-12.bag'.[0m

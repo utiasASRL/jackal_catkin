@@ -1,0 +1,66 @@
+***************************
+http://localhost:11311
+
+
+***************************
+[33m[ WARN] [1645019721.497483073]: Initializing PointSLAM[0m
+[33m[ WARN] [1645019721.533213180]: Trying to load :/home/administrator/1-Deep-Collider/results/runs/Myhal/map_update_0001.ply[0m
+[33m[ WARN] [1645019721.534600144]: Loading :/home/administrator/1-Deep-Collider/results/runs/Myhal/map_update_0001.ply[0m
+[33m[ WARN] [1645019721.792698939]: Loading map: OK[0m
+[33m[ WARN] [1645019721.792872769]: Building map ...[0m
+[33m[ WARN] [1645019730.983864699]: Building map: OK[0m
+[33m[ WARN] [1645019730.995317160]: PointSlam in normal mode: subscribing to /velodyne_points[0m
+[33m[ WARN] [1645019747.347136278]: Shutdown request received.[0m
+[33m[ WARN] [1645019747.347309853]: Reason given for shutdown: [user request][0m
+... logging to /home/administrator/.ros/log/00f71134-8f27-11ec-8553-48b02d05a889/roslaunch-cpr-tor59-xav01-27930.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/administrator/catkin_ws/src/point_slam/launch/point_slam.launch
+[1mstarted roslaunch server http://cpr-tor59-xav01:45997/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /frame_update/base_frame: base_link
+ * /frame_update/filter: False
+ * /frame_update/frame_voxel_size: 0.12
+ * /frame_update/gt_classify: False
+ * /frame_update/h_scale: 0.5
+ * /frame_update/icp_avg_steps: 1
+ * /frame_update/icp_max_iter: 50
+ * /frame_update/icp_pairing_dist: 2.0
+ * /frame_update/icp_planar_dist: 0.12
+ * /frame_update/icp_samples: 500
+ * /frame_update/init_map_path: /home/administrat...
+ * /frame_update/lidar_n_lines: 32
+ * /frame_update/map2d_max_count: 50
+ * /frame_update/map2d_pixel_size: 0.06
+ * /frame_update/map2d_z_max: 1.2
+ * /frame_update/map2d_z_min: 0.08
+ * /frame_update/map_frame: map
+ * /frame_update/map_topic: map
+ * /frame_update/map_voxel_size: 0.06
+ * /frame_update/motion_distortion: True
+ * /frame_update/n_threads: 8
+ * /frame_update/odom_frame: odom
+ * /frame_update/outl_rjct_passes: 2
+ * /frame_update/outl_rjct_thresh: 0.003
+ * /frame_update/r_scale: 4.0
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+  /
+    frame_update (point_slam/frame_update)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/administrator/catkin_ws/src/point_slam/launch/point_slam.launch http://localhost:11311
+[1mprocess[frame_update-1]: started with pid [27947][0m
+[1m[frame_update-1] process has finished cleanly
+log file: /home/administrator/.ros/log/00f71134-8f27-11ec-8553-48b02d05a889/frame_update-1*.log[0m
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
