@@ -1,0 +1,3 @@
+[submodule "src/point_slam"]
+	path = src/point_slam
+	url = https://github.com/utiasASRL/point_slam
