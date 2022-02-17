@@ -11,3 +11,7 @@ devel
 
 # C extensions
 *.so
+
+*.pyc
+*.swp
+*.swo
