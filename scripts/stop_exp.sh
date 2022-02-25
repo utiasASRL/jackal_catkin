@@ -2,6 +2,8 @@
 
 
 # First kill move_base in case of emergency
+source /etc/ros/setup.bash
+source /opt/ros/melodic/setup.bash
 source ~/catkin_ws/devel/setup.bash
 rosnode kill move_base
 
