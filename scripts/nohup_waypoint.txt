@@ -1,44 +1,176 @@
-/home/administrator/catkin_ws/src/follow_waypoints/saved_path/loop_2.csv
-[INFO][547798006736][/follow_waypoints/GetPath.__init__:113]: /home/administrator/catkin_ws/src/follow_waypoints/saved_path/loop_2.csv
-[ DEBUG ] : Adding state (GET_PATH, <follow_waypoints.follow_waypoints.GetPath object at 0x7f89060fd0>, {'success': 'FOLLOW_PATH'})
+/home/administrator/catkin_ws/src/follow_waypoints/saved_path/loop_8.csv
+[INFO][547813288912][/follow_waypoints/GetPath.__init__:113]: /home/administrator/catkin_ws/src/follow_waypoints/saved_path/loop_8.csv
+[ DEBUG ] : Adding state (GET_PATH, <follow_waypoints.follow_waypoints.GetPath object at 0x7f89ef3fd0>, {'success': 'FOLLOW_PATH'})
 [ DEBUG ] : Adding state 'GET_PATH' to the state machine.
 [ DEBUG ] : State 'GET_PATH' is missing transitions: {}
 [ DEBUG ] : TRANSITIONS FOR GET_PATH: {'success': 'FOLLOW_PATH'}
-[INFO][547798006736][/follow_waypoints/FollowPath.__init__:54]: Connecting to move_base...
-[INFO][547798006736][/follow_waypoints/FollowPath.__init__:56]: Connected to move_base.
-[INFO][547798006736][/follow_waypoints/FollowPath.__init__:57]: Starting a tf listner.
-[ DEBUG ] : Adding state (FOLLOW_PATH, <follow_waypoints.follow_waypoints.FollowPath object at 0x7f88abe410>, {'success': 'PATH_COMPLETE'})
+[INFO][547813288912][/follow_waypoints/FollowPath.__init__:54]: Connecting to move_base...
+[INFO][547813288912][/follow_waypoints/FollowPath.__init__:56]: Connected to move_base.
+[INFO][547813288912][/follow_waypoints/FollowPath.__init__:57]: Starting a tf listner.
+[ DEBUG ] : Adding state (FOLLOW_PATH, <follow_waypoints.follow_waypoints.FollowPath object at 0x7f899513d0>, {'success': 'PATH_COMPLETE'})
 [ DEBUG ] : Adding state 'FOLLOW_PATH' to the state machine.
 [ DEBUG ] : State 'FOLLOW_PATH' is missing transitions: {}
 [ DEBUG ] : TRANSITIONS FOR FOLLOW_PATH: {'success': 'PATH_COMPLETE'}
-[ DEBUG ] : Adding state (PATH_COMPLETE, <follow_waypoints.follow_waypoints.PathComplete object at 0x7f884ef450>, {'success': 'GET_PATH'})
+[ DEBUG ] : Adding state (PATH_COMPLETE, <follow_waypoints.follow_waypoints.PathComplete object at 0x7f89381490>, {'success': 'GET_PATH'})
 [ DEBUG ] : Adding state 'PATH_COMPLETE' to the state machine.
 [ DEBUG ] : State 'PATH_COMPLETE' is missing transitions: {}
 [ DEBUG ] : TRANSITIONS FOR PATH_COMPLETE: {'success': 'GET_PATH'}
 [  INFO ] : State machine starting in initial state 'GET_PATH' with userdata: 
 	[]
-[INFO][547798006736][/follow_waypoints/GetPath.execute:183]: Waiting to recieve waypoints via Pose msg on topic /initialpose
-[INFO][547798006736][/follow_waypoints/GetPath.execute:184]: To start following waypoints: 'rostopic pub /path_ready std_msgs/Empty -1'
-[INFO][547798006736][/follow_waypoints/GetPath.execute:185]: OR
-[INFO][547798006736][/follow_waypoints/GetPath.execute:186]: To start following saved waypoints: 'rostopic pub /start_journey std_msgs/Empty -1'
-[INFO][547163709936][/follow_waypoints/GetPath.wait_for_start_journey:161]: Recieved path READY start_journey
-['0.135367393494', '10.0402574539', '0.0', '0.0', '0.0', '0.730848098057', '0.682540150882']
-['-1.75033664703', '24.4632148743', '0.0', '0.0', '0.0', '-0.999979362955', '0.00642445833606']
-['-11.4514760971', '23.5390625', '0.0', '0.0', '0.0', '-0.73324275086', '0.679966961191']
-['-10.7829723358', '16.0787200928', '0.0', '0.0', '0.0', '0.0103913994385', '0.999946007951']
-['-0.86042881012', '17.4204330444', '0.0', '0.0', '0.0', '0.604390153199', '0.796688485367']
-['-1.73764801025', '24.6079139709', '0.0', '0.0', '0.0', '-0.999551975448', '0.0299307263329']
-['-11.4483680725', '23.4441070557', '0.0', '0.0', '0.0', '-0.780032014384', '0.625739607613']
-['-10.7130775452', '16.1181583405', '0.0', '0.0', '0.0', '-0.065331855099', '0.997863592236']
-['-0.845272064209', '17.4761600494', '0.0', '0.0', '0.0', '0.580391582381', '0.814337528978']
-['-1.86721038818', '24.5738601685', '0.0', '0.0', '0.0', '-0.999295406437', '0.0375325282095']
-['-11.3927640915', '23.4357070923', '0.0', '0.0', '0.0', '-0.775651366155', '0.63116159435']
-['-10.6560735703', '16.0196590424', '0.0', '0.0', '0.0', '0.00558738576598', '0.999984390438']
-['0.0653171539307', '15.9248142242', '0.0', '0.0', '0.0', '-0.381266904903', '0.92446500595']
-['-0.205497741699', '0.806255340576', '0.0', '0.0', '0.0', '-0.783226291513', '0.621736741943']
+[INFO][547813288912][/follow_waypoints/GetPath.execute:183]: Waiting to recieve waypoints via Pose msg on topic /initialpose
+[INFO][547813288912][/follow_waypoints/GetPath.execute:184]: To start following waypoints: 'rostopic pub /path_ready std_msgs/Empty -1'
+[INFO][547813288912][/follow_waypoints/GetPath.execute:185]: OR
+[INFO][547813288912][/follow_waypoints/GetPath.execute:186]: To start following saved waypoints: 'rostopic pub /start_journey std_msgs/Empty -1'
+[INFO][547130171888][/follow_waypoints/GetPath.wait_for_start_journey:161]: Recieved path READY start_journey
+['0.220816850662', '9.42141437531', '0.0', '0.0', '0.0', '0.707606692118', '0.706606516578']
+['3.97639966011', '24.8041858673', '0.0', '0.0', '0.0', '-0.00799385605598', '0.999968048622']
+['10.0643758774', '20.2624874115', '0.0', '0.0', '0.0', '-0.70554788368', '0.708662249478']
+['7.91613388062', '10.3215465546', '0.0', '0.0', '0.0', '-0.999816690484', '0.019146420802']
+['-2.84698581696', '24.8600463867', '0.0', '0.0', '0.0', '-0.999944268976', '0.0105574116789']
+['-11.7782287598', '22.9199867249', '0.0', '0.0', '0.0', '-0.699708904366', '0.714428057366']
+['-9.61173915863', '15.8477869034', '0.0', '0.0', '0.0', '-0.00842957087226', '0.999964470536']
+['4.0102148056', '24.8442840576', '0.0', '0.0', '0.0', '-0.00491349657179', '0.999987928703']
+['10.0562534332', '20.2268238068', '0.0', '0.0', '0.0', '-0.71937626495', '0.694620608265']
+['7.91613388062', '10.3215465546', '0.0', '0.0', '0.0', '-0.999879286888', '0.0155374274959']
+['0.238145828247', '9.26661586761', '0.0', '0.0', '0.0', '-0.701699711654', '0.71247281679']
+['-0.338902831078', '0.414594769478', '0.0', '0.0', '0.0', '-0.705581590052', '0.708628689639']
 [  INFO ] : State machine transitioning 'GET_PATH':'success'-->'FOLLOW_PATH'
-[INFO][547798006736][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): 0.135367393494, 10.0402574539
-[INFO][547798006736][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
-[INFO][547798006736][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): -1.75033664703, 24.4632148743
-[INFO][547798006736][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
-[INFO][547798006736][/follo
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): 0.220816850662, 9.42141437531
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): 3.97639966011, 24.8041858673
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): 10.0643758774, 20.2624874115
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goalException in thread Thread-4:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/administrator/catkin_ws/src/follow_waypoints/src/follow_waypoints/follow_waypoints.py", line 120, in wait_for_path_reset
+    data = rospy.wait_for_message('/path_reset', Empty)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/client.py", line 428, in wait_for_message
+    raise rospy.exceptions.ROSInterruptException("rospy shutdown")
+ROSInterruptException: rospy shutdown
+
+Exception in thread Thread-31:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/administrator/catkin_ws/src/follow_waypoints/src/follow_waypoints/follow_waypoints.py", line 144, in wait_for_path_ready
+    data = rospy.wait_for_message('/path_ready', Empty)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/client.py", line 428, in wait_for_message
+    raise rospy.exceptions.ROSInterruptException("rospy shutdown")
+ROSInterruptException: rospy shutdown
+
+Exception in thread Thread-16:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/administrator/catkin_ws/src/follow_waypoints/src/follow_waypoints/follow_waypoints.py", line 144, in wait_for_path_ready
+    data = rospy.wait_for_message('/path_ready', Empty)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/client.py", line 428, in wait_for_message
+    raise rospy.exceptions.ROSInterruptException("rospy shutdown")
+ROSInterruptException: rospy shutdown
+
+Exception in thread Thread-32:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/administrator/catkin_ws/src/follow_waypoints/src/follow_waypoints/follow_waypoints.py", line 160, in wait_for_start_journey
+    data_from_start_journey = rospy.wait_for_message('start_journey', Empty)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/client.py", line 428, in wait_for_message
+    raise rospy.exceptions.ROSInterruptException("rospy shutdown")
+ROSInterruptException: rospy shutdown
+
+: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): 7.91613388062, 10.3215465546
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): -2.84698581696, 24.8600463867
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): -11.7782287598, 22.9199867249
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): -9.61173915863, 15.8477869034
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): 4.0102148056, 24.8442840576
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): 10.0562534332, 20.2268238068
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): 7.91613388062, 10.3215465546
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): 0.238145828247, 9.26661586761
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:77]: Executing move_base goal to position (x,y): -0.338902831078, 0.414594769478
+[INFO][547813288912][/follow_waypoints/FollowPath.execute:78]: To cancel the goal: 'rostopic pub -1 /move_base/cancel actionlib_msgs/GoalID -- {}'
+[  INFO ] : State machine transitioning 'FOLLOW_PATH':'success'-->'PATH_COMPLETE'
+[INFO][547813288912][/follow_waypoints/PathComplete.execute:211]: ###############################
+[INFO][547813288912][/follow_waypoints/PathComplete.execute:212]: ##### REACHED FINISH GATE #####
+[INFO][547813288912][/follow_waypoints/PathComplete.execute:213]: ###############################
+[  INFO ] : State machine transitioning 'PATH_COMPLETE':'success'-->'GET_PATH'
+[INFO][547813288912][/follow_waypoints/GetPath.execute:183]: Waiting to recieve waypoints via Pose msg on topic /initialpose
+[INFO][547813288912][/follow_waypoints/GetPath.execute:184]: To start following waypoints: 'rostopic pub /path_ready std_msgs/Empty -1'
+[INFO][547813288912][/follow_waypoints/GetPath.execute:185]: OR
+[INFO][547813288912][/follow_waypoints/GetPath.execute:186]: To start following saved waypoints: 'rostopic pub /start_journey std_msgs/Empty -1'
+shutdown request: user request
+[ ERROR ] : InvalidUserCodeError: Could not execute state 'GET_PATH' of type '<follow_waypoints.follow_waypoints.GetPath object at 0x7f89ef3fd0>': Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/smach/state_machine.py", line 247, in _update_once
+    self._remappings[self._current_label]))
+  File "/home/administrator/catkin_ws/src/follow_waypoints/src/follow_waypoints/follow_waypoints.py", line 197, in execute
+    raise e
+ROSInterruptException: rospy shutdown
+
+Traceback (most recent call last):
+  File "/home/administrator/catkin_ws/src/follow_waypoints/nodes/follow_waypoints", line 6, in <module>
+    follow_waypoints.main()
+  File "/home/administrator/catkin_ws/src/follow_waypoints/src/follow_waypoints/follow_waypoints.py", line 231, in main
+    outcome = sm.execute()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/smach/state_machine.py", line 359, in execute
+    container_outcome = self._update_once()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/smach/state_machine.py", line 254, in _update_once
+    + traceback.format_exc())
+smach.exceptions.InvalidUserCodeError: Could not execute state 'GET_PATH' of type '<follow_waypoints.follow_waypoints.GetPath object at 0x7f89ef3fd0>': Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/smach/state_machine.py", line 247, in _update_once
+    self._remappings[self._current_label]))
+  File "/home/administrator/catkin_ws/src/follow_waypoints/src/follow_waypoints/follow_waypoints.py", line 197, in execute
+    raise e
+ROSInterruptException: rospy shutdown
+
+[31m[follow_waypoints-1] process has died [pid 15528, exit code 1, cmd /home/administrator/catkin_ws/src/follow_waypoints/nodes/follow_waypoints __name:=follow_waypoints __log:=/home/administrator/.ros/log/33ae5ac8-99aa-11ec-bd28-c400ad2eb6b6/follow_waypoints-1.log].
+log file: /home/administrator/.ros/log/33ae5ac8-99aa-11ec-bd28-c400ad2eb6b6/follow_waypoints-1*.log[0m
+... logging to /home/administrator/.ros/log/33ae5ac8-99aa-11ec-bd28-c400ad2eb6b6/roslaunch-cpr-tor59-xav01-15495.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/administrator/catkin_ws/src/follow_waypoints/launch/follow_waypoints.launch
+[1mstarted roslaunch server http://cpr-tor59-xav01:38409/[0m
+
+SUMMARY
+========
+
+CLEAR PARAMETERS
+ * /follow_waypoints/
+
+PARAMETERS
+ * /follow_waypoints/addpose_topic: /initialpose
+ * /follow_waypoints/goal_frame_id: map
+ * /follow_waypoints/posearray_topic: /waypoints
+ * /follow_waypoints/waypoint_file: loop_8
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+  /
+    follow_waypoints (follow_waypoints/follow_waypoints)
+
+[1mROS_MASTER_URI=http://cpr-tor59-01:11311[0m
+]2;/home/administrator/catkin_ws/src/follow_waypoints/launch/follow_waypoints.launch http://cpr-tor59-01:11311
+[1mprocess[follow_waypoints-1]: started with pid [15528][0m
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

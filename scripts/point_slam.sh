@@ -5,17 +5,24 @@ source /opt/ros/melodic/setup.bash
 source ~/catkin_ws/devel/setup.bash
 
 nohup=false
+newmap=false
 
-while getopts n option
+while getopts nm option
 do
 case "${option}"
 in
 n) nohup=true;;
+m) newmap=true;;
 esac
 done
 
+mycommand="roslaunch point_slam point_slam.launch filter:=false"
+if [ "$newmap" = false ] ; then
+    mycommand="$mycommand init_map_path:=\"/home/administrator/1-Deep-Collider/results/runs/Myhal/map_update_0001.ply\""
+fi
+
 if [ "$nohup" = true ] ; then
-    nohup roslaunch point_slam point_slam.launch filter:="false" > "nohup_point_slam.txt" 2>&1 &
+    nohup $mycommand > "nohup_point_slam.txt" 2>&1 &
 else
-    roslaunch point_slam point_slam.launch filter:="false"
+    $mycommand
 fi
